@@ -2,13 +2,12 @@
     font-family: "Montserrat";
     margin: 0;
 }
+
 .body{
     margin: 0;
     background-color: #f4f4f4; 
     padding-top: 100px;
 }
-
-
 
 .main-header{
     background-color: #101010;
@@ -22,16 +21,19 @@
     right: 0;
     z-index: 11;
 } 
+
 .logo{
     width: 50px;
     height: 42px;
     padding: 15px; 
 }
+
 .sections-wrapper{
     margin-right: auto;
     margin-left: auto;
     width: 1440px;
 }
+
 .h1{
     text-align: center;
     margin-bottom: 5px;
@@ -40,6 +42,7 @@
     color: #303030;
     margin-top: 100px;
 }
+
 .h2{
     text-align: center;
     color: #ababab;
@@ -47,12 +50,14 @@
     font-weight: 700;
     gap: 8px;
 }
+
 .images{
     display: flex;
     justify-content: space-between;
     gap: 21px;
     margin-top: 100px;
 }
+
 .image{
     width: 284px;
     height: 400px;
@@ -62,15 +67,15 @@
     border-radius: 12px;
     transition: all 1s ease;
 }
+
 .animation-zoom:hover{
     background-size: 120%;
 }
 
-
-
 .section2{
     position:relative;
 }
+
 .h3{
     color: #ababab;
     font-size: 24px;
@@ -78,6 +83,7 @@
     margin-top: 200px;
     gap: 150px;
 }
+
 .h4{
     color: #303030;
     font-size: 48px;
@@ -85,6 +91,7 @@
     margin-bottom: 0;
     font-weight: 700;
 }
+
 .h5{
     color: #303030;
     font-size: 48px;
@@ -92,11 +99,13 @@
     margin-bottom: 50px;
     font-weight: 700;
 }
+
 .left-side{
     display: flex;
     justify-content: space-between;
     margin: auto;
 }
+
 .circle{
    display: flex;
    align-items: center;
@@ -105,9 +114,11 @@
    gap: 16px;
    align-items: center;
 }
+
 .circle:hover .map-images{
     display:block;
 }
+
 .days{
    width: 56px;
    height: 56px;
@@ -122,6 +133,7 @@
    font-size: 17px;
    font-weight: 700;
 }
+
 .map-images{
    width: 695px;
    height: 850px;
@@ -133,6 +145,7 @@
    z-index: 10;
    transition: all 1s ease;
 }
+
 .map{
    width: 692px;
    height: 845px;
@@ -141,19 +154,19 @@
    margin-left: -150px;
    margin-top: -215px;
 }
+
 .sub-title1{
    color: #000000;
    margin-bottom: 5px;
    font-size: 16px;
    font-weight: 700;
 }
+
 .sub-title2{
    color: #777777;
    font-size: 12px;
    font-weight: 400;
 }
-
-
 
 .title1{
    color: #ababab;
@@ -163,6 +176,7 @@
    display: flex;
    margin-top: 300px;
 }
+
 .title2{
    color: #303030;
    font-size: 48px;
@@ -171,6 +185,7 @@
    text-align: center;
    display: flex;
 }
+
 .title3{
    color: #303030;
    font-size: 48px;
@@ -179,6 +194,7 @@
    text-align: center;
    display:flex;
 }
+
 .list-fullbody{
    display: flex;
    gap: 20px;
@@ -186,6 +202,7 @@
    margin-bottom: 300px;
    justify-content: center; 
 }
+
 .list-body{
   justify-content: space-between;
   gap: 20px;
@@ -197,9 +214,11 @@
   padding: 40px;
   box-sizing: border-box;
 }
+
 .list-body:hover{
     border: 2px solid green;
 }
+
 .list-title{
   margin: 0;
   font-size: 24px;
@@ -208,6 +227,7 @@
   color: #303030;
   margin-bottom: 28px;
 }
+
 .main-list{
   color: #777777;
   font-size: 20px;
@@ -216,6 +236,7 @@
   flex-direction: column;
   gap: 13px;
 }
+
 .price1{
   font-size: 32px;
   font-weight: 700;
@@ -223,6 +244,7 @@
   margin-top: 28px;
   margin-left: 110px;
 }
+
 .price2{
    font-size: 32px;
    font-weight: 700;
@@ -230,8 +252,6 @@
    margin-top: 70px;
    margin-left: 110px;
 }
-
-
 
 .frame{
    background-color: #171717;
@@ -244,11 +264,13 @@
    text-align: center;
    gap: 10px;
 }
+
 .frame-text{
    color: #FFFFFF;
    font-size: 32px;
    font-weight:700;
 }
+
 .green-button{
    display: flex;
    align-items: center;
@@ -262,11 +284,10 @@
    font-size: 16px;
    text-decoration: none;
 }
+
 .green-button:hover{
     background-color: #8dad99;
 }
-
-
 
 .main-footer{
     background-color: #101010;
@@ -274,6 +295,7 @@
     display: flex;
     justify-content: center;
 }
+
 .main-frame{
    background-color: #101010;
    height: 228px;
@@ -283,16 +305,19 @@
    width: 1440px;
    margin: 0;
 }
+
 .button-logo{
     width: 81px;
     height: 68px;  
     padding: 80px 120px;
 }
+
 .facebook-instagram{
     display: flex;
     gap: 10px;
     padding: 80px 120px;
 }
+
 .button{
     width: 167px;
     height: 44px;
@@ -305,17 +330,21 @@
     gap: 10px;
     text-decoration: none;
 }
+
 .button:hover{
     background-color: #757070;
 }
+
 .facebook-logo{
     width: 24px;
     height: 24px;
 }
+
 .instagram-logo{
     width:24px;
     height: 24px; 
 }
+
 .button-text{
    color: #FFFFFF;
    font-size: 18px;
